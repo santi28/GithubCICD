@@ -7,6 +7,7 @@ const app = express();
 app.get('/', (req, res) => {
   res.send(`
     <h1>Typescript Node Starter</h1>
+    <h2>Environment variables are visible on secret page</h2>
     <p>Try to find this <a href="/secret">secret</a></p>
   `)
 });
